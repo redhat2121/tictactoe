@@ -1,14 +1,15 @@
-import React from "react";
-import Board from './components/Board'
+import React from 'react';
+import Board from './components/Board';
 
-const App = () =>{ 
+import './styles/root.scss';
+
+const App = () => {
   return (
-  <>
-    <h1>TIC TAC TOE</h1>
-    <Board> </Board>
-  
-  </>
+    <div className="app">
+      <h1>TIC TAC TOE</h1>
+      <Board />
+    </div>
   );
-  };
- 
+};
+
 export default App;
